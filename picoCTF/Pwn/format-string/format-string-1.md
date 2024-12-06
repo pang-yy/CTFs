@@ -22,7 +22,7 @@ Notice that 14th to 18th hex strings look like ASCII characters. When we convert
 
 A weird thing to note is that some parts of the flag is missing, such as `CTF{`. This is because the program is 64-bit not 32-bit.
 
-So, we need to use `%lx` instead because `%x` will only read 4 bytes.
+So, we need to use `%lx` instead because `%x` will only print out first 4 bytes.
 
 ![](./img/f1_lx.png)
 
